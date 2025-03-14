@@ -48,9 +48,203 @@ Deploy the Portfolio.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+### index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - SANTHOSH D</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section"><br>
+    <br>
+    <h1><b>PORTFOLIO</b></h1>
+
+    <h1>SANTHOSH D</h2>
+    <h1>B.TECH IT, II Year</h3><br>
+    <br>
+    <h2>
+      <p>
+        I am SANTHOSH D, a second-year IT student pursuing a B.TECH degree. I am passionate about web development and java full-stack developer.
+      </p>
+    </h2>
+    
+  </section>
+
+  <section id="about" class="section">
+    <br><br>
+    <h1>ABOUT ME</h1><br>
+    <center>
+    <h2>=> I am IT  student passionate about web development.</h2>
+    <br>
+    <h2>=> My interests include full-stack development.</h2>
+    <br>
+    <h2>=> My dream is to become a java full-stack developer.</h2>
+    </center>
+  </section>
+
+  <section id="skills" class="section">
+    <br><br>
+    <h1>SKILLS</h1><br>
+    <h1>Technical Skills</h1><br>
+<h2>
+  I) Programming:   C, Java, Python, SQL
+</h2>
+<h2>
+ II) Web Development:   HTML, CSS, JavaScript
+</h2>
+<h2>
+ III) Machine Learning:   Data Science, Algorithms
+</h2>
+<br>
+
+    <br>
+    <h1>Soft Skills</h1><br>
+    <h2>I) Communication</h2>
+    <h2>II) Project management</h2>
+    <h2>III) Probelm-Solving</h2>
+    
+</section>
+
+  
+
+  <section id="contact" class="section">
+    <br><br>
+    <center>
+    <h2>CONTACT ME</h2><br><br>
+    <p>Email: dsanthosh17@gmail.com</p>
+    <p>LinkedIn: <a href="#">https://www.linkedin.com/in/santhosh172006</a></p>
+    <p>GitHub: <a href="#">https://github.com/SANTHOSH172006</a></p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </center>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+</section>
+  
+</body>
+</html>
+```
+
+### index.css
+```
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  table {
+          width: 70%;
+          margin: auto;
+          border-collapse: collapse;
+      }
+  th, td {
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+      }
+  th {
+          background-color: #f2f2f2;
+      }
+
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: red;
+  }
+
+  .section {
+    padding: 50px 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  #home {
+    background-color: palevioletred;
+  }
+
+  #about {
+    background-color: cyan;
+  }
+
+  #skills {
+    background-color: skyblue;
+  }
+
+  #projects {
+    background-color: #fff1b8;
+  }
+
+  #contact {
+    background-color: red;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
+```
 
 
 ## OUTPUT
+![HOME](https://github.com/user-attachments/assets/fc0e6815-7232-4b18-9006-26263c61ef36)
+
+![ME](https://github.com/user-attachments/assets/8617c625-dadd-4c52-9f2f-2e092e31cbc9)
+
+![SKILLS](https://github.com/user-attachments/assets/62cbe894-791a-4bb8-ac52-324958847136)
+
+![CONTACT](https://github.com/user-attachments/assets/a17a13b1-2526-4a33-99be-ab29aeea595f)
+
 
 
 ## RESULT
