@@ -1,84 +1,246 @@
-# Smart India Hackathon Workshop
-# Date:14/03/2025
+# Ex01 Portfolio
+## Date: 14-03-2025
 
-## Register Number:212223220099
+## AIM
+To create a Portfolio using HTML and CSS.
 
-## Name:D.Santhosh
+## ALGORITHM
+### STEP 1
+Create an HTML file (index.html)
 
-## Problem Title
-SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
-## Problem Description
-Background: Railway stations are complex environments with numerous facilities and locations such as ticket counters, platforms, restrooms, food courts, and waiting areas. Passengers often face difficulties in navigating these spaces, especially in large or unfamiliar stations. Efficient and user-friendly navigation systems are crucial for improving passenger experience, reducing congestion, and ensuring timely travel connections. Description: The problem involves developing a comprehensive navigation solution for railway stations that assists passengers in locating various facilities and destinations within the station premises. This includes creating detailed maps, providing real-time directions, and integrating features such as accessibility options for individuals with disabilities. The solution should be intuitive, easy to use, and accessible via multiple platforms, including mobile devices and digital kiosks. Key challenges include updating navigation information in real-time, ensuring accuracy, and accommodating the diverse needs of all passengers. Expected Solution: The expected solution is a multi-platform navigation system that provides detailed, real-time directions to all facilities and locations within a railway station. This system should include: A mobile application with 3D interactive maps and step-by-step navigation. Digital kiosks located throughout the station with touch-screen interfaces. Voice-guided navigation for visually impaired passengers. Regular updates to reflect changes in station layout and facility locations. Integration with existing railway apps and services for seamless user experience. The solution should enhance the overall passenger experience by reducing confusion, saving time, and improving accessibility within the station.
+### STEP 2
+Create a CSS file (style.css)
 
-## Problem Creater's Organization
-Ministry of Railway
+### STEP 3
+Include a navigation bar with links to different sections.
 
-## Idea
-A Smart Railway Station Navigation System that integrates AI, Augmented Reality (AR), IoT, and Smart Signages to provide real-time, interactive, and seamless navigation for passengers inside railway stations.
+### STEP 4
+Add structured sections for introduction, about, projects, and contact details.
+
+### STEP 5
+Define global styles for fonts, colors, and layout.
+
+### STEP 6
+Style the header, navigation bar, and sections.
+
+### STEP 7
+Use Flexbox or CSS Grid for layout design.
+
+### STEP 8
+Add hover effects and transitions for interactivity.
+
+### STEP 9
+Add Images and Media.
+
+### STEP 10
+Use optimized images for a professional look.
+
+### STEP 11
+Open the HTML file in a browser to check layout and functionality.
+
+### STEP 12
+Fix styling issues and refine content placement.
+
+### STEP 13
+Deploy the Portfolio.
+
+### STEP 14
+Upload to GitHub Pages for free hosting.
+
+## PROGRAM
+### index.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - SANTHOSH D</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section"><br>
+    <br>
+    <h1><b>PORTFOLIO</b></h1>
+
+    <h1>SANTHOSH D</h2>
+    <h1>B.TECH IT, II Year</h3><br>
+    <br>
+    <h2>
+      <p>
+        I am SANTHOSH D, a second-year IT student pursuing a B.TECH degree. I am passionate about web development and java full-stack developer.
+      </p>
+    </h2>
+    
+  </section>
+
+  <section id="about" class="section">
+    <br><br>
+    <h1>ABOUT ME</h1><br>
+    <center>
+    <h2>=> I am IT  student passionate about web development.</h2>
+    <br>
+    <h2>=> My interests include full-stack development.</h2>
+    <br>
+    <h2>=> My dream is to become a java full-stack developer.</h2>
+    </center>
+  </section>
+
+  <section id="skills" class="section">
+    <br><br>
+    <h1>SKILLS</h1><br>
+    <h1>Technical Skills</h1><br>
+<h2>
+  I) Programming:   C, Java, Python, SQL
+</h2>
+<h2>
+ II) Web Development:   HTML, CSS, JavaScript
+</h2>
+<h2>
+ III) Machine Learning:   Data Science, Algorithms
+</h2>
+<br>
+
+    <br>
+    <h1>Soft Skills</h1><br>
+    <h2>I) Communication</h2>
+    <h2>II) Project management</h2>
+    <h2>III) Probelm-Solving</h2>
+    
+</section>
+
+  
+
+  <section id="contact" class="section">
+    <br><br>
+    <center>
+    <h2>CONTACT ME</h2><br><br>
+    <p>Email: dsanthosh17@gmail.com</p>
+    <p>LinkedIn: <a href="#">https://www.linkedin.com/in/santhosh172006</a></p>
+    <p>GitHub: <a href="#">https://github.com/SANTHOSH172006</a></p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </center>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+  </footer>
+</section>
+  
+</body>
+</html>
+```
+### index.css
+```
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+
+  table {
+          width: 70%;
+          margin: auto;
+          border-collapse: collapse;
+      }
+  th, td {
+          border: 1px solid black;
+          padding: 10px;
+          text-align: center;
+      }
+  th {
+          background-color: #f2f2f2;
+      }
+
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+  }
+
+  nav ul {
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: red;
+  }
+
+  .section {
+    padding: 50px 20px;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  #home {
+    background-color: palevioletred;
+  }
+
+  #about {
+    background-color: cyan;
+  }
+
+  #skills {
+    background-color: skyblue;
+  }
+
+  #projects {
+    background-color: #fff1b8;
+  }
+
+  #contact {
+    background-color: red;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+
+```
+
+## OUTPUT
+![HOME](https://github.com/user-attachments/assets/e0c3fffb-bb54-4528-83d6-10bf087dfd7c)
+![ME](https://github.com/user-attachments/assets/d9a0faee-cdc9-49b4-a737-eab6023dff7d)
+![SKILLS](https://github.com/user-attachments/assets/ec531f43-c38d-4722-aa66-cfb9cbbd8cce)
+![CONTACT](https://github.com/user-attachments/assets/dbf94b74-4d55-4a71-8ae4-a5cd697f6f76)
 
 
-## Proposed Solution / Architecture Diagram
 
-
-Solution Overview:
-Mobile App & AR Navigation: Users can scan surroundings via their smartphones for real-time AR-based directions.
-AI Chatbot & Voice Assistant: Provides step-by-step navigation assistance via voice or text (WhatsApp, app, or kiosks).
-IoT & Beacon Technology: Bluetooth beacons detect passenger location and send personalized directions.
-Digital Smart Signages: Display real-time train schedules, directions, and crowd density maps.
-AI-Powered Crowd Monitoring: Uses CCTV and heatmaps to suggest less crowded routes.
-Architecture Diagram:
-📌 User Interface (UI Layer)
-
-Mobile App (Android/iOS)
-AR-Based Navigation
-Chatbot / Voice Assistant
-📌 Middleware & Processing Layer
-
-AI/ML for real-time routing
-IoT & Beacons for location tracking
-Cloud server for data storage & processing
-📌 Data Layer
-
-Railway schedule API integration
-User location & movement tracking
-Feedback & analytics
-
-
-## Use Cases
-
-Primary Use Cases:
-Find a Platform: Users get real-time AR or map-based navigation to their train platform.
-Locate Facilities: Passengers can search for restrooms, food courts, ATMs, or ticket counters via AI chatbot or AR.
-Real-Time Updates: Smart signages & apps display live train updates, delays, and crowd congestion levels.
-Assistance for Differently-Abled: Voice commands & tactile pathways assist visually impaired travelers.
-Emergency Assistance: The system can guide users to emergency exits or first-aid centers.
-
-
-## Technology Stack
-### Frontend:
-Mobile App: React Native / Flutter (Android & iOS)
-AR Navigation: ARCore (Android), ARKit (iOS)
-Web Interface: React.js, HTML5, CSS
-
-### Backend:
-
-AI Chatbot: Dialogflow / OpenAI GPT
-Navigation Algorithm: Google Maps API, OpenStreetMap
-Data Processing: Python / Node.js
-### IoT & Infrastructure:
-Beacons & Sensors: Bluetooth Low Energy (BLE) Beacons
-Crowd Monitoring: CCTV + AI (OpenCV, TensorFlow)
-Database: PostgreSQL / Firebase / MongoDB
-### Cloud & Hosting:
-AWS / Google Cloud for scalability
-WebSockets for real-time updates
-
-
-
-## Dependencies
-✅ High-Speed Internet / WiFi in stations for real-time data.
-✅ Railway APIs to fetch live train schedules.
-✅ IoT Beacon Infrastructure for location tracking.
-✅ Smartphone Adoption for AR navigation.
-✅ Government & Railway Authority Support for implementation.
-
+## RESULT
+The program for creating Portfolio using HTML and CSS is executed successfully.
